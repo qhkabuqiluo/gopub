@@ -1,6 +1,6 @@
 #!/bin/bash -e
-export GOROOT=/usr/local/go
-export PATH=$PATH:/usr/local/go/bin/ 
+export GOROOT=/usr/local/Cellar/go/1.11.4/libexec
+export PATH=$PATH:/usr/local/Cellar/go/1.11.4/libexec/bin/
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 BASENAME=`basename $DIR`
 export GOPATH=$DIR
